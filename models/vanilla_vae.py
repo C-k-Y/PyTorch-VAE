@@ -7,7 +7,7 @@ from .types_ import *
 
 class VanillaVAE(BaseVAE):
 
-
+    # 冒号后面是类型提示(type hints)，箭头后面是返回类型提示
     def __init__(self,
                  in_channels: int,
                  latent_dim: int,
